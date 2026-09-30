@@ -83,6 +83,6 @@ The project is intentionally simple: it uses Windows automation to take advantag
 
 ```text
 SpotifyNoAds/
-├── SpotifyNoAds.ahk
+├── LICENSE
 ├── README.md
-└── LICENSE
+└── SpotifyNoAds.ahk
