@@ -26,7 +26,7 @@ When Spotify restarts, it restores the previous playback session, allowing the i
 
 - Windows 10 or Windows 11
 - Spotify Desktop
-- AutoHotkey v2
+- AutoHotkey v2 (https://www.autohotkey.com)
 
 ## Installation
 
