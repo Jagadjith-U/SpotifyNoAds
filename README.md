@@ -4,17 +4,17 @@ A lightweight Windows automation tool that bypasses Spotify ad interruptions by 
 
 ## Why SpotifyNoAds?
 
-SpotifyNoAds takes a simple approach: instead of trying to modify Spotify itself, it uses Windows automation to restart the application when an interruption occurs.
+SpotifyNoAds takes a simple approach: instead of modifying Spotify itself, it uses Windows automation to restart the application when an interruption occurs.
 
-When Spotify restarts, it restores the previous playback session, allowing the interruption to be bypassed without modifying Spotify's files or application.
+When Spotify restarts, it can restore its previous playback session, allowing playback to continue without modifying Spotify's files or application.
 
 ## Features
 
 - Restart Spotify with a single keyboard shortcut
 - Automatically reopen Spotify after restarting
 - Restore playback after the restart
+- Keep Spotify minimized after restarting
 - Run automatically when Windows starts
-- Lightweight and runs in the background
 
 ## Hotkey
 
@@ -26,13 +26,13 @@ When Spotify restarts, it restores the previous playback session, allowing the i
 
 - Windows 10 or Windows 11
 - Spotify Desktop
-- AutoHotkey v2 (https://www.autohotkey.com)
+- AutoHotkey v2
 
 ## Installation
 
 ### 1. Install AutoHotkey
 
-Download and install AutoHotkey v2 from the official website.
+Download and install AutoHotkey v2 from the [official website](https://www.autohotkey.com).
 
 ### 2. Download SpotifyNoAds
 
@@ -52,7 +52,7 @@ When a Spotify interruption occurs, press:
 
 `Ctrl + Alt + S`
 
-SpotifyNoAds will close Spotify, restart it, and restore playback automatically.
+SpotifyNoAds will close Spotify, restart it, minimize the application, and restore playback automatically.
 
 ## Start Automatically With Windows
 
@@ -73,11 +73,11 @@ Instead, it uses AutoHotkey to automate the normal Spotify desktop application:
 1. Detect the hotkey.
 2. Close Spotify.
 3. Restart Spotify.
-4. Allow Spotify to restore its previous playback state.
-5. Continue playback.
-6. Keep the Spotify window out of the way.
+4. Allow Spotify to initialize and restore its playback session.
+5. Minimize Spotify.
+6. Restore playback.
 
-The project is intentionally simple: use Windows automation to take advantage of Spotify's own session restoration behavior.
+The project is intentionally simple: it uses Windows automation to take advantage of Spotify's own session restoration behavior.
 
 ## Project Structure
 
